@@ -1,3 +1,31 @@
-nav {
-  display: none;
+*{
+  border: 1px solid teal;
 }
+
+nav {
+  /* display: none; */
+}
+
+.container{
+  display: flex;
+}
+
+aside{
+  min-width: 20%;
+}
+
+img{
+  max-width: 175px;
+  height: 125px;
+}
+
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+justify-content: space-evenly;
+}
+
